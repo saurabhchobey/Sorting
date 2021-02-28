@@ -11,7 +11,7 @@ node* newnode(int data1){
 	
 	node* n=new node();
 	n->data=data1;
-	n->lt=n->rt=NULL;
+	n->lt = n->rt=NULL;
 	
 	
 return n;
@@ -29,6 +29,7 @@ return n;
 int hite(node* root){
 	
 	if(root==NULL){
+		
 		return 0;
 	}
 	
