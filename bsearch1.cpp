@@ -15,8 +15,10 @@ int bst(int arr[],int l,int r,int x){
 	
 	while(r>=l){
 	
+		
 	
-		int mid=(l+(r-1))/2;
+		int mid ;
+		mid = (l+(r-1))/2;
 		
 		if  (arr[mid]==x)
 			
